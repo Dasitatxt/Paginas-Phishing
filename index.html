@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio de Phishing | Seguridad Superior</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f2f5f9;
+    color: #24344d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.container {
+    width: 100%;
+    max-width: 760px;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 35px rgba(20, 40, 70, .10);
+}
+
+.topbar {
+    height: 9px;
+    background: linear-gradient(90deg, #20bea5, #087fc1);
+}
+
+.content {
+    padding: 50px 55px;
+    text-align: center;
+}
+
+.icon {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: #fff0e5;
+    color: #e87925;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 25px;
+}
+
+.tag {
+    display: inline-block;
+    background: #e8f5f2;
+    color: #168b76;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 8px 15px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #172b4d;
+    font-size: 34px;
+    margin: 5px 0 15px;
+}
+
+.subtitle {
+    color: #526176;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.notice {
+    background: #eaf7f1;
+    border-left: 4px solid #20a477;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+    margin: 25px 0;
+    line-height: 1.7;
+    color: #285b48;
+}
+
+.notice strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.steps {
+    text-align: left;
+    background: #f6f8fb;
+    padding: 22px 25px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.steps h3 {
+    margin-top: 0;
+    color: #172b4d;
+}
+
+.steps p {
+    line-height: 1.6;
+    color: #526176;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 23px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.btn-primary {
+    background: #174c78;
+    color: white;
+}
+
+.btn-secondary {
+    background: #e9f1f8;
+    color: #174c78;
+}
+
+.btn:hover {
+    opacity: .85;
+    transform: translateY(-2px);
+}
+
+.footer {
+    background: #f7f9fc;
+    border-top: 1px solid #e4e9ef;
+    padding: 20px;
+    text-align: center;
+    color: #7b8797;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+@media(max-width:600px) {
+    .content {
+        padding: 35px 22px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="topbar"></div>
+
+    <main class="content">
+
+        <div class="icon">!</div>
+
+        <div class="tag">EJERCICIO DE CONCIENTIZACIÓN</div>
+
+        <h1>¡Has caído en la prueba de phishing!</h1>
+
+        <p class="subtitle">
+            No te preocupes. Esta fue una simulación controlada
+            realizada por el equipo de Ciberseguridad de
+            Seguridad Superior.
+        </p>
+
+        <div class="notice">
+            <strong>¡Tus credenciales no están expuestas!</strong>
+            Esta simulación no ha realizado ningún acceso a tus
+            cuentas ni ha utilizado tus credenciales.
+        </div>
+
+        <div class="steps">
+            <h3>¿Qué debes recordar?</h3>
+
+            <p>
+                <strong>1. Verifica el remitente:</strong>
+                comprueba siempre quién envía los correos electrónicos.
+            </p>
+
+            <p>
+                <strong>2. Revisa los enlaces:</strong>
+                antes de ingresar información, verifica la dirección
+                del sitio web.
+            </p>
+
+            <p>
+                <strong>3. No compartas tus credenciales:</strong>
+                nunca ingreses tus claves en enlaces de procedencia
+                desconocida.
+            </p>
+
+            <p>
+                <strong>4. Reporta los correos sospechosos:</strong>
+                informa cualquier situación al equipo de Mesa de Ayuda
+                y Ciberseguridad.
+            </p>
+        </div>
+
+        <div class="actions">
+
+            <a class="btn btn-primary"
+               href="https://helpdesk.gruposuperior.com.co/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Reportar a Mesa de Ayuda
+            </a>
+
+            <a class="btn btn-secondary"
+               href="mailto:ciber@gruposuperior.com.co">
+                Contactar Ciberseguridad
+            </a>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        Seguridad Superior<br>
+        Equipo de Ciberseguridad<br>
+        La seguridad de la información es responsabilidad de todos.
+    </footer>
+
+</div>
+
+</body>
+</html>
